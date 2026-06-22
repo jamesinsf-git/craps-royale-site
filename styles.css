@@ -56,29 +56,28 @@ a:hover { text-decoration: underline; }
 }
 
 .gold-foil {
-  background: linear-gradient(180deg,
-    #FFF7D2 0%, #F7DE84 24%, #E6BB52 46%,
-    #B07F2A 72%, #8C6420 86%, #EAC56F 100%);
+  background: linear-gradient(180deg, #FFF7D2 0%, #F7DE84 24%, #E6BB52 46%, #B07F2A 72%, #8C6420 86%, #EAC56F 100%);
   -webkit-background-clip: text;
   background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: transparent;
   background-size: 100% 220%;
-  filter:
-    drop-shadow(0 2px 1px rgba(0,0,0,0.6))
-    drop-shadow(0 0 22px rgba(231,190,85,0.22));
+  text-shadow: 0 2px 1px rgba(0,0,0,0.6);
   animation: goldShimmer 7s ease-in-out infinite alternate;
 }
 .section-title-gradient {
   background: linear-gradient(180deg, #FBEDB0, #E6BB52 55%, #A87E2C);
   -webkit-background-clip: text;
   background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: transparent;
-  filter: drop-shadow(0 1px 0 rgba(0,0,0,0.5));
+  text-shadow: 0 1px 0 rgba(0,0,0,0.5);
 }
 .small-wordmark {
   background: linear-gradient(180deg, #F6E4A6, #C9962E);
   -webkit-background-clip: text;
   background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: transparent;
 }
 
