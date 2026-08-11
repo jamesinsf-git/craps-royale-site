@@ -139,6 +139,29 @@ a:hover { text-decoration: underline; }
 .appstore-badge .stack .bot { font-size: 17px; font-weight: 600; margin-top: 2px; }
 .appstore-badge.pulse { animation: glowPulse 4s ease-in-out infinite; }
 
+.badge-row {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.appstore-badge.coming-soon {
+  opacity: 0.55;
+  cursor: default;
+  border-color: rgba(231,190,85,0.3);
+  box-shadow: none;
+  animation: none;
+}
+.appstore-badge.coming-soon .apple { fill: #fff; }
+.appstore-badge.coming-soon .stack .top {
+  color: #F4D772;
+  opacity: 1;
+  font-size: 8.5px;
+  letter-spacing: 0.08em;
+}
+
 /* ---- Sections (home) ---- */
 .section {
   padding: 46px 26px;
