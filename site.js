@@ -5,7 +5,7 @@
    Edit APP_STORE_URL below when the App Store listing is live. */
 
 (function () {
-  var APP_STORE_URL = 'https://apps.apple.com/app/craps-royale/id0000000000';
+  var APP_STORE_URL = 'https://play.google.com/store/apps/details?id=com.crapsroyale.craps';
 
   var addr = 'admin' + '@' + 'wallyapps' + '.' + 'com';
 
