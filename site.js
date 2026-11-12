@@ -7,7 +7,7 @@
   var PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.crapsroyale.craps';
   var APP_STORE_URL  = 'https://apps.apple.com/us/app/craps-royale-beyond-the-table/id6781789179';
 
-  var addr = 'admin' + '@' + 'wallyapps' + '.' + 'com';
+  var addr = 'crapsroyale' + '@' + 'wallyapps' + '.' + 'com';
 
   document.querySelectorAll('[data-crmail]').forEach(function (a) {
     a.setAttribute('href', 'mailto:' + addr);
